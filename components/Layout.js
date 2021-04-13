@@ -1,14 +1,14 @@
 import React from 'react'
 import Head from "next/head";
-import Blog from '../pages/blog'
-import Navbar from './Navbar'
+import Header from './Header';
+import Footer from './Footer';
 
 const Layout = ({children}) => {
     return (
-        <>
+      <>
 
-<Head>
-        <title>Blog de Gorki</title>
+       <Head>
+        <title>CEED</title>
         <meta name="descripcion" content="CEED" />
         <link
           rel="stylesheet"
@@ -20,12 +20,16 @@ const Layout = ({children}) => {
           href="https://fonts.googleapis.com/css?family=PT+Sans:400,700|Roboto+Slab:400,700&display=swap"
           rel="stylesheet"
         />
-    
-      </Head>
-        <Navbar />
+
+        <link href="/static/css/custom.css" rel="stylesheet"/>
+        </Head>
+
+        <Header/>
      
         <main className="container">{children}</main>
         <script src="static/js/bootstrap.min.js"></script>
+
+        <Footer />
       
         </>
     )
