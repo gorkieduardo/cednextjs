@@ -1,11 +1,12 @@
 import React from 'react';
-import Navbar from './Navbar';
+//import Navbar from './Navbar';
 //import Navclasico from './Navclasico';
+import NavCarolina from './NavCarolina'
 
 const Header = () => {
     return ( 
             <header>
-                 <Navbar />
+                 <NavCarolina />
                   
               </header> 
               

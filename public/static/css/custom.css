@@ -2,12 +2,12 @@
     --verde: #00b30c;
     --gris1: #676d67;
 }
-header{
+ /* header{
     background-image: url('../img/banner.jpg');
    /* height: 320px;*/
-    min-height: 30rem; 
-    background-size: cover;
-  }
+   /* min-height: 30rem; */
+   /* background-size: cover;
+ /* } */
 
   header .nav-link,
   header .nav-link:hover{

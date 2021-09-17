@@ -31,12 +31,12 @@ const Navbar = () => {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
           
-           <li className="nav-link">
+           <li className="nav-item">
               <Link href="/">
                 <a className="nav-link text-secondary">INICO</a>
               </Link>
             </li>
-            <li className="nav-link">
+            <li className="nav-item">
                <Link href="/blog">
                 <a className="nav-link text-secondary">BLOG</a>
               </Link>
